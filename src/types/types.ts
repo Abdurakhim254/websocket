@@ -1,4 +1,4 @@
-export class CreateWebsocketDto {
+export interface Props{
     name: string;
     age:number;
     email:string;
@@ -6,3 +6,6 @@ export class CreateWebsocketDto {
     description:string
     id?:number
 }
+
+
+export type Data=Props[]

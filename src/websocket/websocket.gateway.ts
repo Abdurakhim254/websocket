@@ -13,7 +13,6 @@ export class WebsocketGateway {
 
   @SubscribeMessage('createWebsocket')
   create(@MessageBody() createWebsocketDto: CreateWebsocketDto) {
-    console.log("createWebsocketDto");
     
     console.log({ createWebsocketDto, message: 'Createwebsocket' });
 
