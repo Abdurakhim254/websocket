@@ -1,8 +1,8 @@
 export class CreateWebsocketDto {
-    name: string;
-    age:number;
-    email:string;
-    title:string
-    description:string
-    id?:number
-}
+    name!: string;
+    age!: number;
+    email!: string;
+    title!: string;
+    description!: string;
+  }
+  
