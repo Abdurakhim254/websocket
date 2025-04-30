@@ -1,8 +1,7 @@
 import fs from 'fs';
-import path from 'path';
-import { Data, } from 'src/types/types';
+import { Data } from 'src/types/types';
 
-const filepath=path.join(import.meta.dirname,'../db/data.json');
+const filepath='C:\\Users\\Asus Vivobook\\Desktop\\new\\websocket\\src\\db\\data.json'
 
 
 export const Readfile = async():Promise<Data | undefined> => {
